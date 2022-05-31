@@ -1,6 +1,7 @@
 import datetime as dt
 import requests
-from test_api_key import api
+from tests_api_key import api
+import pandas as pd
 
 
 def histo_hour(fsym, tsym, start_date, export):

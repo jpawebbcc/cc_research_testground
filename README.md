@@ -7,3 +7,12 @@ Current CryptoCompare permissions:
 - **James W** *Research Associate*
 - **Anthony E** *Research Analyst*
 - **Jacob J** *Research Analyst*
+
+------------
+
+#### Critereon for inclusion
+| `functional_scripts`  | `test_scripts` |
+| ------------ | ------------ |
+| Functionally written  | Mostly functionally written  |
+| PEP-8 compliant  | Some refactoring required  |
+| Modular integration  | No integration required  |

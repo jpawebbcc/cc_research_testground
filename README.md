@@ -11,8 +11,8 @@ Current CryptoCompare permissions:
 ------------
 
 #### Critereon for inclusion
-| `functional_scripts`  | `test_scripts` |
-| ------------ | ------------ |
-| Functionally written  | Mostly functionally written  |
-| PEP-8 compliant  | Some refactoring required  |
-| Modular integration  | No integration required  |
+| `functional_scripts`  | `unfinished_scripts` | `tests` |
+| ------------ | ------------ | ------------ |
+| Functionally written  | Mostly functionally written  | Unit tests |
+| PEP-8 compliant  | Some refactoring required  | Stress tests |
+| Modular integration  | No integration required  | Any dynamic testing |

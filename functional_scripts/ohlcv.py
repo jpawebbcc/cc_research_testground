@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import datetime as dt
-#
+
 
 def ohlcv(
         fsym=None, tsym='USD', start_date='2018-01-01', e=None, convert=False,
@@ -67,6 +67,7 @@ def looper(fsym_list):
     """
     aggregate = pd.DataFrame()
     for f in fsym_list:
+        # This could be made more dynamic
         try:
             data = ohlcv(fsym=f, tsym='USD', start_date='2021-01-01', e=None,
                          convert=False, export=False)
